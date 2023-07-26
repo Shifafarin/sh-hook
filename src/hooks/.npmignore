@@ -1,0 +1,12 @@
+# Exclude development-specific files and folders
+node_modules/
+*.map
+*.test.js
+*.spec.js
+test/
+tests/
+docs/
+examples/
+config/
+scripts/
+package-lock.json
