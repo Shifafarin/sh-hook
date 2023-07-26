@@ -10,3 +10,4 @@ examples/
 config/
 scripts/
 package-lock.json
+UseShHook.js
