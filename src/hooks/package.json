@@ -2,7 +2,7 @@
   "name": "sh-hook",
   "version": "1.0.2",
   "description": "A simple react component",
-  "main": "dist/sh-hook.js",
+  "main": "dist/index-built.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,7 +16,16 @@
     "@babel/core": "^7.22.9",
     "@babel/preset-react": "^7.22.5",
     "babel-loader": "^9.1.3",
+    "css-loader": "^6.8.1",
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@popperjs/core": "^2.11.6",
+    "babel-plugin-macros": "^3.1.0",
+    "bootstrap": "^5.3.1",
+    "font-awesome": "^4.7.0"
   }
 }

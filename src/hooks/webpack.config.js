@@ -1,10 +1,10 @@
 const path = require("path");
 
 module.exports = {
-  entry: "./UseShHooks.js", // The entry point of your package's source code
+  entry: "./index.js", // The entry point of your package's source code
   output: {
     path: path.resolve(__dirname, "dist"), // The output directory for the build files
-    filename: "sh-hook.js", // The name of the built package file
+    filename: "index-built.js", // The name of the built package file
     library: "MyPackage", // The name of the library exported by the package
     libraryTarget: "umd", // The target module format (supports both Node.js and browser)
     umdNamedDefine: true, // Name the UMD module for AMD/RequireJS compatibility
@@ -18,6 +18,10 @@ module.exports = {
         use: {
           loader: "babel-loader",
         },
+      },
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader'],
       },
     ],
   },

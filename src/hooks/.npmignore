@@ -10,4 +10,14 @@ examples/
 config/
 scripts/
 package-lock.json
-UseShHook.js
+TextareaWithCopy.js
+Textareaaa.js
+UseShHooks.js
+Button.js
+Accordion.js
+Card.js
+Alert.js
+Badge.js
+Dropdown.js
+TestComponent.js
+Updateit.js
