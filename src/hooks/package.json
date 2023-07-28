@@ -1,7 +1,7 @@
 {
   "name": "sh-hook",
-  "version": "1.0.2",
-  "description": "A simple react component",
+  "version": "1.0.3",
+  "description": "This package contain reusabe react componets",
   "main": "dist/index-built.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
